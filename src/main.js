@@ -35,12 +35,12 @@ new Vue({
     },
     initFirebase(){
       const firebaseApp = firebase.initializeApp({
-        apiKey: "AIzaSyAkx2NHZgmP9-Kr9a4dDN-xUqjm_CLvPhk",
-        authDomain: "phonepassword-auth.firebaseapp.com",
-        databaseURL: "https://phonepassword-auth.firebaseio.com",
-        projectId: "phonepassword-auth",
-        storageBucket: "phonepassword-auth.appspot.com",
-        messagingSenderId: "754975497400"
+        apiKey: "AIzaSyDiWvzSG8kFr2oPLyrLleEmxGxMY3ed5Hw",
+        authDomain: "my-fuck-awesome-project.firebaseapp.com",
+        databaseURL: "https://my-fuck-awesome-project.firebaseio.com",
+        projectId: "my-fuck-awesome-project",
+        storageBucket: "my-fuck-awesome-project.appspot.com",
+        messagingSenderId: "885320638463"
       });
     },
   },
@@ -52,3 +52,5 @@ new Vue({
     this.getLoginStatus()
   }
 })
+
+

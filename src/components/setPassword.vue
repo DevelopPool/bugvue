@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Set Password</h2>
+    <h2>Set   YOU Password</h2>
     <input placeholder="Enter Password" v-model="password"/><br>
     <input placeholder="Re-enter Password" v-model="password_2"/><br>
     <button @click="setPassword">Set Password</button>

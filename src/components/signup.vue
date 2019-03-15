@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2>SignUp</h2>
-    +91<input type="number" v-model="phNo" placeholder="Phone Number"/>
+    +886<input type="number" v-model="phNo" placeholder="Phone Number"/>
     <button id="sign-in-button" @click="sendOtp">Get OTP</button>
     <div id="recaptcha-container"></div><br>
     <input type="number" v-model="otp" placeholder="OTP"/>
@@ -27,7 +27,7 @@
           alert('Invalid Phone Number Format !');
         }else{
           //
-          let countryCode = '+91' //india
+          let countryCode = '+886' //india
           let phoneNumber = countryCode + this.phNo
           //
           let appVerifier = this.appVerifier
